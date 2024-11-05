@@ -35,7 +35,7 @@ LLM:
   OpenAILLM:
     model_name: deepseek-chat
     url: https://api.deepseek.com
-    api_key:
+    api_key: sk-e33a81486b264d78891a8f0d5070f909
 
 TTS:
   MacTTS:
