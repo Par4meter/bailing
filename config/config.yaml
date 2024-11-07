@@ -13,7 +13,7 @@ selected_module:
   ASR: FunASR
   VAD: SileroVAD
   LLM: OpenAILLM
-  TTS: EdgeTTS
+  TTS: CHATTTS
   Player: PygameSoundPlayer
 
 Recorder:
@@ -63,14 +63,14 @@ Rag:
   emb_model: models/bge-small-zh
   model_name: deepseek-chat
   url: https://api.deepseek.com
-  api_key: null
+  api_key: sk-e33a81486b264d78891a8f0d5070f909
 
 Memory:
   dialogue_history_path: tmp/
   memory_file: tmp/memory.json
   model_name: deepseek-chat
   url: https://api.deepseek.com
-  api_key: null
+  api_key: sk-e33a81486b264d78891a8f0d5070f909
 
 TaskManager:
   functions_call_name: plugins/function_calls_config.json
