@@ -13,7 +13,7 @@ selected_module:
   ASR: FunASR
   VAD: SileroVAD
   LLM: OpenAILLM
-  TTS: CHATTTS
+  TTS: MacTTS
   Player: PygameSoundPlayer
 
 Recorder:

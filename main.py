@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 def push2web(payload):
     try:
         data = json.dumps(payload, ensure_ascii=False)
-        url = "http://127.0.0.1:5000/add_message"
+        url = "http://127.0.0.1:8888/add_message"
         headers = {
           'Content-Type': 'application/json; charset=utf-8'
         }

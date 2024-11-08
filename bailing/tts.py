@@ -125,7 +125,9 @@ class CHATTTS(AbstractTTS):
     def __init__(self, config):
         self.output_file = config.get("output_file", ".")
         self.chat = ChatTTS.Chat()
-        self.chat.load(compile=False)  # Set to True for better performance
+        self.chat.load(compile=True,  # Set to True for better performance
+                       source='custom',
+                       custom_path='./models/ChatTTS')
         self.rand_spk = self.chat.sample_random_speaker()
 
     def _generate_filename(self, extension=".wav"):
